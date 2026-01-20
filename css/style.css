@@ -28,6 +28,38 @@ header a {
    text-decoration: none;
 }
 
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px 24px;
+   background-color:#8dc6ff;
+   font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
 .intro {
    background-image:url(/img/bg-image-section-ContentMKTMT2300002BFY23-Markets-Technology-Awareness-Whats-next-for-tech-Thought-leadershipAS3639.jpg) ;
    background-repeat: no-repeat;
@@ -58,11 +90,19 @@ header a {
    text-align: center;  
 }
 
-
-
 .detail {
    display: flex;
+   justify-content: center;
+   text-align: center;
    padding: 30px;
+}
+
+.product-ul{
+    list-style: none;
+}
+
+.product-ul li{
+    margin: 10px 0px;
 }
 
 footer {
