@@ -55,7 +55,10 @@ header a {
    flex: 1 1 200px;
    border: 1px solid #ccc;
    padding: 10px;
+   text-align: center;  
 }
+
+
 
 .detail {
    display: flex;
