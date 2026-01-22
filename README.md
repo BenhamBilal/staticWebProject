@@ -16,6 +16,9 @@ Statische HTML/CSS webshop voor techproducten.
 
  5. Responsieve maken mobiel
 
+# Externe bronnen
+
+ - Chatgpt voor de logo en sterren bij reviews
 
 # Frontend (klant)
 

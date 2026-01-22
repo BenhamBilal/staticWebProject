@@ -321,6 +321,8 @@ footer {
   .nav-search {
     justify-content: center;
   }
+
+
 }
 
 /* Mobile S en kleiner (bijv. 375px) */
@@ -348,5 +350,10 @@ footer {
   .product-list {
     flex-direction: column;
     gap: 15px;
+  }
+
+  .product-detail img {
+    margin: 20px 0;
+    width: 100%;
   }
 }
