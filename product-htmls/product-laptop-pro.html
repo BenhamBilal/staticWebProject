@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+
+    <!-- Header met titel en logo -->
+    <header>
+      <div class="container-title-logo">
+        <a href="/index.html"><h1>Tech-web-Shop</h1></a>
+        <img src="img/web-tech-shop-logo.png" alt="Tech Web Shop logo" />
+      </div>
+
+      <nav>
+        <a href="#">Phones</a>
+        <a href="#">Laptops</a>
+        <a href="#">Accessories</a>
+      </nav>
+    </header>
+
+    <!-- Navbar met searchblok -->
+    <div class="navbar">
+      <div class="brand">Web-TechShop</div>
+
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Laptops</a>
+        <a href="#">Smartphones</a>
+        <a href="#">Accessoires</a>
+        <a href="#">Sale</a>
+      </nav>
+
+      <div class="nav-search">
+        <input type="text" placeholder="Zoek product..." />
+        <button>Zoek</button>
+      </div>
+    </div>
+
+    <!-- Productdetail -->
+    <main class="detail">
+      <div class="product-detail">
+
+        <h2>Smartphone X</h2>
+        <img src="img/laptop.jpg" alt="laptop" />
+
+        <!-- Reviews -->
+        <div class="reviews">
+          <p>⭐⭐⭐⭐☆ (4.5/5)</p>
+          <p>Gebaseerd op 128 reviews</p>
+        </div>
+
+        <!-- Prijs -->
+        <p class="price">€699</p>
+
+        <!-- Voorraad -->
+        <p class="stock in-stock">✔ Op voorraad</p>
+        <p>Voor 23:59 besteld, morgen in huis</p>
+
+        <!-- Korte beschrijving -->
+        <p>Snelle smartphone met krachtige prestaties.</p>
+
+        <!-- Product eigenschappen -->
+        <ul class="product-ul">
+          <li>Opslag: 128GB</li>
+          <li>Scherm: 6.5 inch</li>
+          <li>5G ondersteuning</li>
+        </ul>
+
+        <!-- Aantal & winkelwagen -->
+        <label for="amount">Aantal:</label>
+        <input type="number" id="amount" value="1" min="1" />
+        <br><br>
+        <button class="add-to-cart">In winkelwagen</button>
+
+        <!-- Beschrijving -->
+        <section class="product-description">
+          <h3>Productbeschrijving</h3>
+          <p>
+            De Smartphone X is ontworpen voor snelheid en betrouwbaarheid.
+            Dankzij de krachtige processor, het heldere scherm en de lange
+            batterijduur is dit toestel ideaal voor dagelijks gebruik.
+          </p>
+        </section>
+
+        <!-- Specificaties -->
+        <section class="specifications">
+          <h3>Specificaties</h3>
+          <table>
+            <tr>
+              <td>Opslag</td>
+              <td>128GB</td>
+            </tr>
+            <tr>
+              <td>Scherm</td>
+              <td>6.5 inch OLED</td>
+            </tr>
+            <tr>
+              <td>Netwerk</td>
+              <td>5G</td>
+            </tr>
+            <tr>
+              <td>Batterij</td>
+              <td>4500 mAh</td>
+            </tr>
+          </table>
+        </section>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 TechShop</p>
+    </footer>
+  </body>
+</html>
