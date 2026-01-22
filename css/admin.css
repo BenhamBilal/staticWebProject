@@ -1,32 +1,38 @@
 body {
-font-family: Arial, sans-serif;
-background: #eaeaea;
-padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #eaeaea;
+  padding: 30px;
 }
 
 .center {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .box {
-background: white;
-padding: 20px;
-display: flex;
-flex-direction: column;
-gap: 10px;
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 500px;
+}
+
+.box input,button,select {
+    height: 60px;
 }
 
 table {
-width: 100%;
-background: white;
-border-collapse: collapse;
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  margin-bottom: 40px;
 }
 
-th, td {
-border: 1px solid #ccc;
-padding: 10px;
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
 }
-
