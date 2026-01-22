@@ -1,8 +1,14 @@
+/* Algemeen */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
+/* Header en Navbar */
 header {
   display: flex;
   justify-content: space-between;
@@ -86,16 +92,19 @@ header a {
   background-color: #0ea5e9;
 }
 
+/* Intro */
 .intro {
   background-image: url(/img/bg-image-section-ContentMKTMT2300002BFY23-Markets-Technology-Awareness-Whats-next-for-tech-Thought-leadershipAS3639.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position: center;
   padding: 40px;
   text-align: center;
   color: #f1f1f1;
   height: 200px;
 }
 
+/* Products */
 .products {
   padding: 30px;
 }
@@ -110,7 +119,7 @@ header a {
   gap: 20px;
 }
 
-/* cards */
+/* Cards */
 .card {
   flex: 1 1 200px;
   border: 1px solid #ccc;
@@ -129,7 +138,9 @@ header a {
 }
 
 .product-list img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .product-ul {
@@ -155,6 +166,7 @@ header a {
   margin: 20px 0;
 }
 
+/* Product-cards */
 .reviews {
   color: #f5a623;
   margin-bottom: 10px;
@@ -245,13 +257,16 @@ footer {
   padding: 15px;
 }
 
-/* responsive header */
+/* Responsiveness */
+
+/* Tablet en kleine desktop */
 @media (max-width: 903px) {
   header {
     flex-direction: column;
     align-items: center;
     gap: 15px;
     text-align: center;
+    width: 100vw;
   }
 
   .container-title-logo {
@@ -275,19 +290,21 @@ footer {
     margin-left: 0;
     font-size: 18px;
   }
-}
 
-
-@media (max-width: 903px) {
   .navbar {
     flex-direction: column;
     align-items: stretch;
     gap: 15px;
     padding: 16px;
+    width: 100vw;
   }
 
   .brand {
     text-align: center;
+  }
+
+  .intro {
+    width: 100vw;
   }
 
   .nav-links {
@@ -306,37 +323,30 @@ footer {
   }
 }
 
-/* =========================
-   RESPONSIVE HEADER
-   ========================= */
-@media (max-width: 768px) {
-  header {
+/* Mobile S en kleiner (bijv. 375px) */
+@media (max-width: 375px) {
+  .nav-links {
+    font-size: 16px;
+  }
+
+  .nav-search input {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
+
+  .product-list {
     flex-direction: column;
-    align-items: center;
     gap: 15px;
-    text-align: center;
-  }
-
-  .container-title-logo {
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    gap: 10px;
-  }
-
-  .container-title-logo img {
-    width: 120px;
-  }
-
-  header nav {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  header nav a {
-    margin-left: 0;
-    font-size: 18px;
   }
 }
-

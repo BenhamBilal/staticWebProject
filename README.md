@@ -3,6 +3,20 @@
 
 Statische HTML/CSS webshop voor techproducten.
 
+# Plan van aanpak
+
+ 1. Thema bepalen : tech producten
+
+ 2. Frontend bouwen (homepage + productdetail) oa : titel, logo , navbar , search bar,
+    section product met 6 producten en footer bouwen.
+
+ 3. Backend bouwen (admin login ,dashboard , product toevoegen)
+
+ 4. Styling met flexbox
+
+ 5. Responsieve maken mobiel
+
+
 # Frontend (klant)
 
  -	Homepage met logo, navigatie, intro-banner en productgrid (≥6 producten)
