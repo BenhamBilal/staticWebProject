@@ -19,6 +19,7 @@ Statische HTML/CSS webshop voor techproducten.
 # Externe bronnen
 
  - Chatgpt voor de logo en sterren bij reviews
+ - afbeeldingen van google opgenomen
 
 # Frontend (klant)
 
@@ -43,4 +44,4 @@ Statische HTML/CSS webshop voor techproducten.
  3.	Bekijk in browser
 
 # Auteur
- - Benhammou Bilal – Eerstejaars Graduaat Programmeren
+ - Benhammou Bilal – Eerstejaarsstudent Graduaat Programmeren
